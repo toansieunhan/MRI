@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+data/data/
+data/processed/*
+!data/processed/.gitkeep
+inference/target/
+.env
+.kaggle/
+third_party/
+
+# Local authoring files and generated report versions
+tmp/
+output/
+# Future generated training artifacts: retained checkpoints/reports are tracked
+outputs/logs/
+outputs/runs/*/predictions/
+outputs/runs/*/visualizations/
+# Local credentials and machine configuration
+.env.*
+!.env.example
+*.log
