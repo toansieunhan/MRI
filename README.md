@@ -1,4 +1,4 @@
-# Brain Tumor CADx with Swin V2 and Swin Hybrid
+# MRI: Brain Tumor CADx with Swin V2 and Swin Hybrid
 
 Swin Hybrid combines a trainable Swin Transformer with a six-stage nnU-Net residual encoder, multiscale feature fusion, depthwise refinement, and a detail-aware decoder for **binary brain tumor segmentation on 2D MRI slices**. The project includes reproducible training, KAN and depthwise comparison models, and a native **Rust inference application**.
 
